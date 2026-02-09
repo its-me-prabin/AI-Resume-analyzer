@@ -1,5 +1,7 @@
 # AI Resume Analyzer
 
+🔗 **Live Demo:** [https://ai-resume_analyzer.puter.site/](https://ai-resume_analyzer.puter.site/)
+
 A comprehensive React 18 application that analyzes resumes against job descriptions using AI. The app converts PDF resumes to images, extracts text, and sends everything to Puter AI for detailed ATS (Applicant Tracking System) analysis. Results are stored in Puter's cloud storage with full persistence.
 
 ## Features
