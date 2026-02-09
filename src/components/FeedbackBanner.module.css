@@ -1,0 +1,51 @@
+.banner {
+  @apply flex gap-3 rounded-2xl border px-5 py-4;
+}
+
+.icon {
+  @apply flex-shrink-0;
+}
+
+.content {
+  @apply flex flex-col gap-1;
+}
+
+.title {
+  @apply text-sm font-semibold uppercase tracking-wide;
+}
+
+.description {
+  @apply text-sm opacity-90;
+}
+
+.info {
+  @apply border-sky-500/40 bg-sky-500/10 text-sky-100;
+}
+
+.info .title {
+  @apply text-sky-300;
+}
+
+.success {
+  @apply border-emerald-500/40 bg-emerald-500/10 text-emerald-100;
+}
+
+.success .title {
+  @apply text-emerald-300;
+}
+
+.error {
+  @apply border-rose-500/40 bg-rose-500/10 text-rose-100;
+}
+
+.error .title {
+  @apply text-rose-300;
+}
+
+.warning {
+  @apply border-amber-500/40 bg-amber-500/10 text-amber-100;
+}
+
+.warning .title {
+  @apply text-amber-300;
+}

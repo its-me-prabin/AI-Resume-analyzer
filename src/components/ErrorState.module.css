@@ -1,0 +1,23 @@
+.container {
+  @apply flex gap-3 rounded-xl border border-rose-500/40 bg-rose-500/10 px-4 py-3;
+}
+
+.icon {
+  @apply flex-shrink-0 text-rose-400;
+}
+
+.content {
+  @apply flex flex-col gap-1;
+}
+
+.title {
+  @apply text-sm font-semibold text-rose-300;
+}
+
+.message {
+  @apply text-sm text-rose-100;
+}
+
+.retryButton {
+  @apply mt-1 text-xs font-medium text-rose-300 underline hover:text-rose-200;
+}

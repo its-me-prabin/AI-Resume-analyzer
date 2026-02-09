@@ -1,0 +1,28 @@
+.container {
+  @apply flex items-center gap-3 rounded-xl border border-slate-800 bg-slate-900/60 px-4 py-3 text-sm text-slate-200;
+}
+
+.small {
+  @apply px-3 py-2 text-xs;
+}
+
+.spinner {
+  @apply flex gap-1;
+}
+
+.dot {
+  @apply h-2 w-2 animate-bounce rounded-full bg-indigo-400;
+  animation-delay: 0ms;
+}
+
+.dot:nth-child(2) {
+  animation-delay: 150ms;
+}
+
+.dot:nth-child(3) {
+  animation-delay: 300ms;
+}
+
+.message {
+  @apply font-medium;
+}
